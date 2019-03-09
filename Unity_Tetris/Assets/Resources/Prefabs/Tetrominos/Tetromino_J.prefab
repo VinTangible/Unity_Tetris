@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3489461247196352957}
   - component: {fileID: 1935578485585417365}
+  - component: {fileID: 4919945009547639040}
   m_Layer: 0
   m_Name: mino_j
   m_TagString: Untagged
@@ -79,6 +80,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4919945009547639040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569061346543717984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7cf540addbd4ff299b4ff80a90e015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1523304674380861181
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1582912817074380193}
+  - component: {fileID: 1504388741928243744}
   m_Layer: 0
   m_Name: Tetromino_J
   m_TagString: Untagged
@@ -113,6 +127,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1504388741928243744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523304674380861181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3b043f8e8584f2daf1ea94f5849172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 1
+  allowRotation: 1
+  limitRotation: 0
 --- !u!1 &2221740872482666295
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,6 +152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7078400520747797123}
   - component: {fileID: 9138621066340599186}
+  - component: {fileID: 6993952653072540985}
   m_Layer: 0
   m_Name: mino_j (2)
   m_TagString: Untagged
@@ -192,6 +222,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6993952653072540985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221740872482666295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7cf540addbd4ff299b4ff80a90e015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4763032129388819054
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323891691081443918}
   - component: {fileID: 7424744124550008508}
+  - component: {fileID: 2009623370367669744}
   m_Layer: 0
   m_Name: mino_j (3)
   m_TagString: Untagged
@@ -271,6 +314,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2009623370367669744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763032129388819054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7cf540addbd4ff299b4ff80a90e015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8967854029038337331
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4049725699369381438}
   - component: {fileID: 7582547666503089628}
+  - component: {fileID: 5608670721422821092}
   m_Layer: 0
   m_Name: mino_j (1)
   m_TagString: Untagged
@@ -350,3 +406,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5608670721422821092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8967854029038337331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7cf540addbd4ff299b4ff80a90e015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
